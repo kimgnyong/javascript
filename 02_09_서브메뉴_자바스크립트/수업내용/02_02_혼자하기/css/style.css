@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#wrap {width:1200px; height:700px; margin: 0 auto; text-align: center; color :white}
+#wrap header { z-index: 3; position:relative; width:100%; height:100px; line-height: 100px;}
+#wrap header .left-box{float:left; width:200px; height:100%; background: blueviolet;}
+#wrap header .right-box{float:left; width:1000px; height:100%; background: brown;}
+#wrap header .right-box  nav {float:right; width:750px; height:50px; line-height: 50px;padding-top: 50px; }
+#wrap header .right-box  nav  .main-btn  { display: inline-block; width:100%; height:50px;}
+#wrap header .right-box  nav  .main-btn .btn { float:left; width:180px; height:100%;}
+#wrap header .right-box  nav  .main-btn .btn:hover > div {display: block;}
+#wrap header .right-box  nav  .main-btn .btn:focus > div {display: block;}
+#wrap header .right-box  nav  .main-btn .btn > a {display:block; width: 100%; line-height: 50px; background: white; font-size: 15px; font-weight: 600;}
+#wrap header .right-box  nav  .main-btn .btn > a:hover {background: black; color:white;}
+
+#wrap header .right-box  nav  .main-btn .btn > div {width:100%; height:100%; display :none;}
+#wrap header .right-box  nav  .main-btn .btn > div >ul {width:100%; height:100%;}
+#wrap header .right-box  nav  .main-btn .btn > div >ul >li {width:100%; height:100%;}
+#wrap header .right-box  nav  .main-btn .btn > div >ul >li >a{ color: black; background: white; display : block; width:100%; height:100%;}
+#wrap header .right-box  nav  .main-btn .btn > div >ul >li >a:hover{ color: white; background: black; }
+
+
+#wrap main {z-index: 2; position:relative; width: 100%; height:500px;}
+#wrap main #imgslide{width:100%; height:300px; line-height: 300px; background: cadetblue;}
+#wrap main #menu{width:100%; height:200px; line-height: 200px;}
+#wrap main #menu .left-box{float:left;width:400px; height:100%; background: chartreuse;}
+#wrap main #menu .center-box{float:left;width:400px; height:100%; background: coral;}
+#wrap main #menu .right-box{float:left;width:400px; height:100%; background: cornflowerblue;}
+
+#wrap footer {z-index: 1; position:relative; width:100%; height:100px; line-height: 100px;}
+#wrap footer .left-box{float:left; width:200px; height:100%; background: blue;}
+#wrap footer .center-box{float:left; width:800px; height:100%; background: burlywood;}
+#wrap footer .right-box{float:left; width:200px; height:100%; background: violet;}
